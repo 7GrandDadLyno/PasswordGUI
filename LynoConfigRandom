@@ -50160,12 +50160,12 @@ This File is a Password File Don't see !
 This File is a Password File Don't see !
 This File is a Password File Don't see !
 ]]--
+setclipboard("LynoOnTop")
+wait(30)
+setclipboard("Code expired !")
 local Notification = function(Title, Txt, Icon,Time)
   game:GetService("StarterGUI"):SetCore("SendNotification", {
     Title = Hey !,
     Text = The Safe Code was Copy to Your Clipboard,
     Duration = 3
-   })
-setclipboard("LynoOnTop")
-wait(30)
-setclipboard("Code expired !")
+ })
